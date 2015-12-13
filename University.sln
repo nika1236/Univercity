@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University", "University\University.csproj", "{A544D934-9C3F-4DA3-8609-D176B5BAF1F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAbstractionLayer", "DataAbstractionLayer\DataAbstractionLayer.csproj", "{0A724BFD-621A-4367-AC83-2E2C5B70207A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University-BL-DAL", "University-BL-DAL\University-BL-DAL.csproj", "{68A992A8-C18E-42F8-B029-D27DCBF57C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A544D934-9C3F-4DA3-8609-D176B5BAF1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A544D934-9C3F-4DA3-8609-D176B5BAF1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A544D934-9C3F-4DA3-8609-D176B5BAF1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A544D934-9C3F-4DA3-8609-D176B5BAF1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A724BFD-621A-4367-AC83-2E2C5B70207A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A724BFD-621A-4367-AC83-2E2C5B70207A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A724BFD-621A-4367-AC83-2E2C5B70207A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A724BFD-621A-4367-AC83-2E2C5B70207A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A992A8-C18E-42F8-B029-D27DCBF57C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A992A8-C18E-42F8-B029-D27DCBF57C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A992A8-C18E-42F8-B029-D27DCBF57C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A992A8-C18E-42F8-B029-D27DCBF57C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

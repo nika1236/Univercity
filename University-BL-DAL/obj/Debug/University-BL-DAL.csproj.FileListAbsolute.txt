@@ -1,0 +1,8 @@
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\bin\Debug\University-BL-DAL.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\bin\Debug\University-BL-DAL.pdb
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\bin\Debug\DataAbstractionLayer.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\bin\Debug\SQLitePCL.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\bin\Debug\DataAbstractionLayer.pdb
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\obj\Debug\University-BL-DAL.csprojResolveAssemblyReference.cache
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\obj\Debug\University-BL-DAL.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University-BL-DAL\obj\Debug\University-BL-DAL.pdb
