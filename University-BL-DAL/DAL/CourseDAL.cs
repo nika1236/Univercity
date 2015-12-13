@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace University_BL_DAL.DAL
 {
-    class CourseDAL
+    public class CourseDAL
     {
     }
 }

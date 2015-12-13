@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using University_BL_DAL.DAL;
 
 namespace University_BL_DAL.BL
 {
-    class Classroom
+    public class Classroom
     {
         public int Id { get; set; }
         public string Number { get; set; }
