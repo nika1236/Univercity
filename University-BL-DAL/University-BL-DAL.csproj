@@ -35,10 +35,21 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <Folder Include="BL\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Classroom.cs" />
+    <Compile Include="BL\Course.cs" />
+    <Compile Include="BL\Database.cs" />
+    <Compile Include="BL\Faculty.cs" />
+    <Compile Include="BL\Lecturer.cs" />
+    <Compile Include="BL\Student.cs" />
+    <Compile Include="BL\StudentCourse.cs" />
+    <Compile Include="DAL\ClassroomDAL.cs" />
+    <Compile Include="DAL\CourseDAL.cs" />
+    <Compile Include="DAL\FacultyDAL.cs" />
+    <Compile Include="DAL\LecturerDAL.cs" />
+    <Compile Include="DAL\StudentCourseDAL.cs" />
+    <Compile Include="DAL\StudentDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

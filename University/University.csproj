@@ -74,12 +74,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\University-BL-DAL\University-BL-DAL.csproj">
-      <Project>{68a992a8-c18e-42f8-b029-d27dcbf57c68}</Project>
-      <Name>University-BL-DAL</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
@@ -93,6 +87,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="sqlite3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\University-BL-DAL\University-BL-DAL.csproj">
+      <Project>{68a992a8-c18e-42f8-b029-d27dcbf57c68}</Project>
+      <Name>University-BL-DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

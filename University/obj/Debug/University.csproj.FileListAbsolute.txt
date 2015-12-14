@@ -8,3 +8,5 @@ C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.csprojResolveAssemblyReference.cache
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.exe
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.pdb
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.pdb

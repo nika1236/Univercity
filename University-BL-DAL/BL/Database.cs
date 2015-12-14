@@ -11,6 +11,12 @@ namespace University_BL_DAL.BL
     {
         public static void CreateTables()
         {
+            ClassroomDAL.CreateTable();
+            CourseDAL.CreateTable();
+            FacultyDAL.CreateTable();
+            LecturerDAL.CreateTable();
+            StudentCourseDAL.CreateTable();
+            StudentDAL.CreateTable();
         }
     }
 }
