@@ -1,6 +1,5 @@
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\bin\Debug\DataAbstractionLayer.dll
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\bin\Debug\DataAbstractionLayer.pdb
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\bin\Debug\SQLitePCL.dll
-C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\obj\Debug\DataAbstractionLayer.csprojResolveAssemblyReference.cache
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\obj\Debug\DataAbstractionLayer.dll
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\DataAbstractionLayer\obj\Debug\DataAbstractionLayer.pdb

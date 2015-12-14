@@ -1,12 +1,13 @@
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\SQLitePCL.Ext.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\sqlite3.dll
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\University.exe.config
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\University.exe
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\University.pdb
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\SQLitePCL.dll
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\University-BL-DAL.dll
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.dll
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\University-BL-DAL.pdb
+C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.pdb
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.csprojResolveAssemblyReference.cache
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.exe
 C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\obj\Debug\University.pdb
-C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.dll
-C:\Users\nikusha\Documents\Visual Studio 2015\Projects\University\University\bin\Debug\DataAbstractionLayer.pdb

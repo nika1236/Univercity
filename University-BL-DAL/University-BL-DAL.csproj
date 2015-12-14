@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="BL\Classroom.cs" />
     <Compile Include="BL\Course.cs" />
     <Compile Include="BL\Database.cs" />

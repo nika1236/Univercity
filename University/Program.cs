@@ -12,7 +12,42 @@ namespace University
     {
         static void Main(string[] args)
         {
+            //create tables
             Database.CreateTables();
+
+            //create individual records
+            Faculty faculty = new Faculty(1, "programming");
+            faculty.Create();
+
+            Lecturer lecturer = new Lecturer(1, "Jose", "exp@ipb.pt", faculty.Id);
+            lecturer.Create();
+
+            Classroom classroom = new Classroom(1, "123");
+            classroom.Create();
+
+            Student student = new Student(1, "Nikoloz Kavtaradze", 81.5, "nikolozkavtaradze@gmail.com");
+            student.Create();
+
+            Course course = new Course(1, "Application Development", faculty.Id, lecturer.Id);
+            course.Create();
+
+            StudentCourse lecture = new StudentCourse(1, classroom.Id, student.Id);
+            lecture.Create();
+
+            student.Gpa = 90;
+            student.Update();
+
+            Console.WriteLine(Course.Find(course.Id).Name);
+
+            //clean the records
+            faculty.Delete();
+            lecturer.Delete();
+            classroom.Delete();
+            student.Delete();
+            course.Delete();
+            lecture.Delete();
+
+            Console.ReadKey();
         }
     }
 }
