@@ -23,5 +23,32 @@ namespace University_BL_DAL.BL
             this.FacultyId = faculty_id;
             this.LecturerId = lecturer_id;
         }
+
+        public static IEnumerable<Course> GetAll()
+        {
+            return (CourseDAL.GetAll());
+        }
+
+        public static Course Find(long id)
+        {
+            return (CourseDAL.Find(id));
+        }
+
+        public bool Create()
+        {
+            bool res = false;
+            res = CourseDAL.Create(this);
+            return (res);
+        }
+
+        public bool Update()
+        {
+            return (CourseDAL.Update(this));
+        }
+
+        public bool Delete()
+        {
+            return (CourseDAL.Delete(this));
+        }
     }
 }
