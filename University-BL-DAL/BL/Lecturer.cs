@@ -23,5 +23,32 @@ namespace University_BL_DAL.BL
             this.Email = email;
             this.FacultyId = faculty_id;
         }
+
+        public static IEnumerable<Lecturer> GetAll()
+        {
+            return (LecturerDAL.GetAll());
+        }
+
+        public static Lecturer Find(long id)
+        {
+            return (LecturerDAL.Find(id));
+        }
+
+        public bool Create()
+        {
+            bool res = false;
+            res = LecturerDAL.Create(this);
+            return (res);
+        }
+
+        public bool Update()
+        {
+            return (LecturerDAL.Update(this));
+        }
+
+        public bool Delete()
+        {
+            return (LecturerDAL.Delete(this));
+        }
     }
 }
