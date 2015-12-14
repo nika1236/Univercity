@@ -12,7 +12,7 @@ namespace University_BL_DAL.BL
         public long Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public long Faculty_id { get; set; }
+        public long FacultyId { get; set; }
 
         public Lecturer() { }
 
@@ -21,7 +21,7 @@ namespace University_BL_DAL.BL
             this.Id = id;
             this.Name = name;
             this.Email = email;
-            this.Faculty_id = faculty_id;
+            this.FacultyId = faculty_id;
         }
     }
 }
