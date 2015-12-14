@@ -21,5 +21,32 @@ namespace University_BL_DAL.BL
             this.ClassroomId = classroom_id;
             this.StudentId = student_id;
         }
+
+        public static IEnumerable<StudentCourse> GetAll()
+        {
+            return (StudentCourseDAL.GetAll());
+        }
+
+        public static StudentCourse Find(long id)
+        {
+            return (StudentCourseDAL.Find(id));
+        }
+
+        public bool Create()
+        {
+            bool res = false;
+            res = StudentCourseDAL.Create(this);
+            return (res);
+        }
+
+        public bool Update()
+        {
+            return (StudentCourseDAL.Update(this));
+        }
+
+        public bool Delete()
+        {
+            return (StudentCourseDAL.Delete(this));
+        }
     }
 }
