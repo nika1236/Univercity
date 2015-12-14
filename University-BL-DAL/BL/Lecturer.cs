@@ -9,12 +9,14 @@ namespace University_BL_DAL.BL
 {
     public class Lecturer
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public int Faculty_id { get; set; }
+        public long Faculty_id { get; set; }
 
-        public Lecturer(int id, string name, string email, int faculty_id)
+        public Lecturer() { }
+
+        public Lecturer(long id, string name, string email, long faculty_id)
         {
             this.Id = id;
             this.Name = name;

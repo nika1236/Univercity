@@ -9,12 +9,14 @@ namespace University_BL_DAL.BL
 {
     public class Student
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }
         public double Gpa { get; set; }
         public string Email { get; set; }
 
-        public Student(int id, string name, double gpa, string email)
+        public Student() { }
+
+        public Student(long id, string name, double gpa, string email)
         {
             this.Id = id;
             this.Name = name;
