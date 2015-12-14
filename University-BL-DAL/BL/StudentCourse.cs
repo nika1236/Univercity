@@ -32,6 +32,11 @@ namespace University_BL_DAL.BL
             return (StudentCourseDAL.Find(id));
         }
 
+        public static StudentCourse FindByClassroomIdAndStudentId(long classroom_id, long student_id)
+        {
+            return (StudentCourseDAL.FindByClassroomIdAndStudentId(classroom_id, student_id));
+        }
+
         public bool Create()
         {
             bool res = false;

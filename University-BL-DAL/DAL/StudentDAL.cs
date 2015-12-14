@@ -84,6 +84,24 @@ namespace University_BL_DAL.DAL
             return empty;
         }
 
+        public static Student FindByName(string name)
+        {
+            DB db = DB.getDB(file);
+            string query = string.Format(@"SELECT * FROM Student WHERE name = '{0}' ", name);
+
+            using (ISQLiteStatement statement = db.Query(query))
+            {
+                if (statement.Step() == SQLiteResult.ROW)
+                {
+                    Student res = new Student();
+                    MappingDB2OO(statement, res);
+                    return res;
+                }
+            }
+            Student empty = new Student();
+            return empty;
+        }
+
         private static void MappingDB2OO(
             ISQLiteStatement statement,
             Student e

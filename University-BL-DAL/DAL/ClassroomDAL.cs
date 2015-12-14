@@ -80,6 +80,24 @@ namespace University_BL_DAL.DAL
             return empty;
         }
 
+        public static Classroom FindByNumber(string number)
+        {
+            DB db = DB.getDB(file);
+            string query = string.Format(@"SELECT * FROM Classroom WHERE number = '{0}' ", number);
+
+            using (ISQLiteStatement statement = db.Query(query))
+            {
+                if (statement.Step() == SQLiteResult.ROW)
+                {
+                    Classroom res = new Classroom();
+                    MappingDB2OO(statement, res);
+                    return res;
+                }
+            }
+            Classroom empty = new Classroom();
+            return empty;
+        }
+
         private static void MappingDB2OO(
             ISQLiteStatement statement,
             Classroom e

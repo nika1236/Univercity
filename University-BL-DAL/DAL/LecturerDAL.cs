@@ -84,6 +84,24 @@ namespace University_BL_DAL.DAL
             return empty;
         }
 
+        public static Lecturer FindByName(string name)
+        {
+            DB db = DB.getDB(file);
+            string query = string.Format(@"SELECT * FROM Lecturer WHERE name = '{0}' ", name);
+
+            using (ISQLiteStatement statement = db.Query(query))
+            {
+                if (statement.Step() == SQLiteResult.ROW)
+                {
+                    Lecturer res = new Lecturer();
+                    MappingDB2OO(statement, res);
+                    return res;
+                }
+            }
+            Lecturer empty = new Lecturer();
+            return empty;
+        }
+
         private static void MappingDB2OO(
             ISQLiteStatement statement,
             Lecturer e

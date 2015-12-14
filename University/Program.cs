@@ -34,10 +34,15 @@ namespace University
             StudentCourse lecture = new StudentCourse(1, classroom.Id, student.Id);
             lecture.Create();
 
+            //update
             student.Gpa = 90;
             student.Update();
 
+            //find by id
             Console.WriteLine(Course.Find(course.Id).Name);
+
+            //Demonstrate find by two ids
+            StudentCourse student_course = StudentCourse.FindByClassroomIdAndStudentId(classroom.Id, student.Id);
 
             //clean the records
             faculty.Delete();

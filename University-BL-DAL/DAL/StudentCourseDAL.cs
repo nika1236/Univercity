@@ -82,6 +82,24 @@ namespace University_BL_DAL.DAL
             return empty;
         }
 
+        public static StudentCourse FindByClassroomIdAndStudentId(long classroom_id, long student_id)
+        {
+            DB db = DB.getDB(file);
+            string query = string.Format(@"SELECT * FROM StudentCourse WHERE classroom_id = '{0}' AND student_id = '{1}' ", classroom_id, student_id);
+
+            using (ISQLiteStatement statement = db.Query(query))
+            {
+                if (statement.Step() == SQLiteResult.ROW)
+                {
+                    StudentCourse res = new StudentCourse();
+                    MappingDB2OO(statement, res);
+                    return res;
+                }
+            }
+            StudentCourse empty = new StudentCourse();
+            return empty;
+        }
+
         private static void MappingDB2OO(
             ISQLiteStatement statement,
             StudentCourse e

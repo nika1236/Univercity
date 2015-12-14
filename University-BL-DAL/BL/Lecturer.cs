@@ -34,6 +34,12 @@ namespace University_BL_DAL.BL
             return (LecturerDAL.Find(id));
         }
 
+
+        public static Lecturer FindByName(string name)
+        {
+            return (LecturerDAL.FindByName(name));
+        }
+
         public bool Create()
         {
             bool res = false;

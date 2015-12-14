@@ -30,6 +30,11 @@ namespace University_BL_DAL.BL
             return (FacultyDAL.Find(id));
         }
 
+        public static Faculty FindByName(string name)
+        {
+            return (FacultyDAL.FindByName(name));
+        }
+
         public bool Create()
         {
             bool res = false;

@@ -30,6 +30,11 @@ namespace University_BL_DAL.BL
             return (ClassroomDAL.Find(id));
         }
 
+        public static Classroom FindByNumber(string number)
+        {
+            return (ClassroomDAL.FindByNumber(number));
+        }
+
         public bool Create()
         {
             bool res = false;
